@@ -19,7 +19,6 @@ public class FeatureController {
 
     Logger logger = LoggerFactory.getLogger(FeatureController.class);
 
-    ResultSet resultSet;
     @Autowired
     private FeatureRepository featureRepository;
 
